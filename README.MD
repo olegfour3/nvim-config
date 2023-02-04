@@ -11,6 +11,15 @@ brew install ripgrep
 npm install -g pyright
 ```
 
+For Manjaro Linux:
+
+```sh
+sudo pacman -S nvim
+sudo pacman -S rust-analyzer
+sudo pacman -S ripgrep
+sudo pacman -S pyright
+```
+
 Install also [vim-plug](https://github.com/junegunn/vim-plug) — plugin manager for vim/nvim.
 
 Put [init.vim](init.vim) to `~/.config/nvim/init.vim` folder.
